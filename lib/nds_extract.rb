@@ -26,13 +26,13 @@ end
 
 def list_of_directors(source)
   # Write this implementation
-  pp(nds)
   result = {}
   directors_index = 0
   while directors_index < source.length do
+    
     directors_index += 1
   end
-  return result[source[directors_index]]
+  return result[source[directors_index][:name]]
 end
 
 def total_gross(source)
