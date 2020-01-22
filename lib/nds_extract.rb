@@ -32,7 +32,7 @@ def list_of_directors(source)
     name_index = 0
     directors_index += 1
   end
-  return result[source[directors_index][name_index]
+  return result[source[directors_index][name_index]]
 end
 
 def total_gross(source)
