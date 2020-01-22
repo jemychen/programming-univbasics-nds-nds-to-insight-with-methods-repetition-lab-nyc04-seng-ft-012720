@@ -48,6 +48,7 @@ def total_gross(source)
   total = 0
   list_of_directors = list_of_directors(source)
   directors_totals = directors_totals(source)
+  while 
   }
 end
 
